@@ -1,5 +1,9 @@
 {
   "private": true,
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --mode=production"
+  },
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
